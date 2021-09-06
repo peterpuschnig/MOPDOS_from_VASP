@@ -1,0 +1,40 @@
+SYSTEM = full
+ 
+  NWRITE = 2
+  PREC = Normal  
+  ISPIN = 1
+ 
+Number of SCF cycles are left at their default values
+  NELM  = 150
+  EDIFF = 1.E-08
+  NELMIN = 4
+
+
+Flags for Pair-Correlation function output are set to default
+ 
+ LORBIT = 11 
+   EMIN = -15.
+   EMAX = 5.
+  NEDOS = 2001
+ ISMEAR = 1
+  SIGMA = 0.2
+  LREAL = A
+VOSKOWN = 1
+   ALGO = Normal
+  LDIAG = .TRUE.
+ LPLANE = .TRUE.
+   NSIM = 4
+   NPAR = 4
+
+Mixing tags 
+
+
+  LWAVE = .TRUE.
+ LCHARG = .TRUE.
+   LELF = .FALSE.
+  LVHAR = .TRUE. 
+
+    LVDW = .TRUE.
+
+  IDIPOL = 3
+  LDIPOL = .TRUE.

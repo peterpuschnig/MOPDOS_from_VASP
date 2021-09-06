@@ -1,0 +1,9 @@
+   "VASP/full/WAVECAR"            ! name of WAVECAR file of full calculation
+   "VASP/molecule/WAVECAR"        ! name of WAVECAR file of mol calculation
+   4                              ! number of k-points in IBZKPT
+   11 15                          ! band range for analysis
+   1 82                           ! band range for analysis
+  -1.5894                         ! Fermi-level (energy of HOMO) in eV
+  0.1                             ! sigma value for gauss broadening
+ -15.0    5.00    0.02            ! range of energies for analysis (1 - 2) and energy step (3) [eV]  
+
