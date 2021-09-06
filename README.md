@@ -41,6 +41,7 @@ In order to compute the MOPDOS go to the respective folder,
     cd ../example
     
 If necessary, edit the text file `MOPDOS.in` which provides the input data for running the MOPDOS program:
+
     "VASP/full/WAVECAR"         ! name of WAVECAR file of full calculation
     "VASP/molecule/WAVECAR"     ! name of WAVECAR file of molecule calculation
     4                           ! number of k-points in IBZKPT
